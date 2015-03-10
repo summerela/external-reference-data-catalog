@@ -1,7 +1,7 @@
 ##Cytoband Database
 |Description|Format|Lookup|Match_Fields|hg19_download|latest_release|Notes|
 |-----------|------|------|------------|---------|---------------|--------------|-----|
-|UCSC Cytogenic band database|tsv|direct|chrom<br>chromStart<br>chromEnd|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz)|[Recent release](ftp://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/cytoBand.txt.gz)|<ul><li>Latest download links to most recent human reference</li></ul>|
+|UCSC Cytogenic band database|tsv|direct|chrom<br>chromStart<br>chromEnd|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/cytoBand.txt.gz)|[Recent release](http://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/cytoBand.txt.gz)|<ul><li>Latest download links to most recent human reference</li></ul>|
 
 ##Cytoband Database Schema
 ```Mysql
