@@ -14,8 +14,13 @@ Annotate variants with gene definitions based upon transcript, coding and exon s
 
 ## Kaviar
 ## ClinVar
+
 ## Cytoband
+The <a href="https://github.com/summerela/external-reference-data-catalog/blob/master/cytoband_db.md", target="_blank">UCSC's CytoBand database</a> defines approxomite location of cytogenic bands as seen on Giemsa-stained chromosomes. 
+
 ## RepeatMasker
+The <a href="https://github.com/summerela/external-reference-data-catalog/blob/master/repeatMask_db.md", target="_blank">RepeatMasker database</a> identifies repeate regions and regions of low-complexity. This outfile for hg19 was downloaded directly from repeatemasker.org. 
+
 ## Segmental Duplications
 ## dbSNP
 ## Admix4
