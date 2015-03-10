@@ -7,9 +7,9 @@ The purpose of this repository is to document the various external bioinformatic
 ##Gene annotation databases
 Annotate variants with gene definitions based upon transcript, coding and exon start/stop positions. 
 <ul>
-<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/UCSC_genedefs.md">UCSC gene definitions</a></li>
-<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/refseq_genedefs.md">RefSeq gene definitions</a></li>
-<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/ensembl_genedefs.md">Ensembl gene definitions</a></li>
+<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/UCSC_genedefs.md", target="_blank">UCSC gene definitions</a></li>
+<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/refseq_genedefs.md", target="_blank">RefSeq gene definitions</a></li>
+<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/ensembl_genedefs.md", target="_blank">Ensembl gene definitions</a></li>
 </ul>
 
 ## Kaviar
