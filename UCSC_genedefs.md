@@ -1,7 +1,7 @@
 ##UCSC Gene Definitions
 |Description|Format|Lookup|Match_Fields|GRCh37_download|latest_release|Notes|
 |-----------|------|------|------------|---------|---------------|--------------|-----|
-|UCSC Gene Definitions|tsv|direct|chrom,strand,txStart,txEnd,cdsStart,cdsEnd,exonCount,exonStarts,exonEnds|http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/knownGene.txt.gz|ftp://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/knownGene.txt.gz|*Latest download links to most recent human reference *Select match field based on transcript, coding or exon|
+|UCSC Gene Definitions|tsv|direct|chrom<br>strand<br>txStart<br>txEnd<br>cdsStart<br>cdsEnd<br>exonCount<br>exonStarts<br>exonEnds|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/knownGene.txt.gz)|[Most recent release](ftp://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/knownGene.txt.gz)|*Latest download links to most recent human reference *Select match field based on transcript, coding or exon|
 
 ##UCSC Database Schema
 ```Mysql
