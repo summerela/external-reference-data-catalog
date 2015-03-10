@@ -23,6 +23,7 @@ The <a href="https://github.com/summerela/external-reference-data-catalog/blob/m
 
 ## Segmental Duplications
 ## dbSNP
+<a href="https://github.com/summerela/external-reference-data-catalog/blob/master/dbSNP_db.md", target="_blank">NCBI's database of single nucleotide polymorphisms</a> (SNPs) and multiple small-scale variations that include insertions/deletions, microsatellites, and non-polymorphic variants.
 ## Admix4
 ## Admix14
 ## PolyPhen/SIFT
