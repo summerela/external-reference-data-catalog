@@ -22,6 +22,8 @@ The <a href="https://github.com/summerela/external-reference-data-catalog/blob/m
 The <a href="https://github.com/summerela/external-reference-data-catalog/blob/master/repeatMask_db.md", target="_blank">RepeatMasker database</a> identifies repeate regions and regions of low-complexity. This outfile for hg19 was downloaded directly from repeatemasker.org. 
 
 ## Segmental Duplications
+A global analysis of human <a href="https://github.com/summerela/external-reference-data-catalog/blob/master/segmentalDups_db.md", target="_blank">segmental duplications</a> (> 90% identity and >1kb in length), created at UW, maintained by UCSC. 
+
 ## dbSNP
 <a href="https://github.com/summerela/external-reference-data-catalog/blob/master/dbSNP_db.md", target="_blank">NCBI's database of single nucleotide polymorphisms</a> (SNPs) and multiple small-scale variations that include insertions/deletions, microsatellites, and non-polymorphic variants.
 ## Admix4
