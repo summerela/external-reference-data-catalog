@@ -15,6 +15,7 @@ Annotate variants with gene definitions based upon transcript, coding and exon s
 ## Kaviar
 ## ClinVar
 ## Cytoband
+The <a href="https://github.com/summerela/external-reference-data-catalog/blob/master/cytoband_db.md", target="_blank">CytoBand database</a> is created from the outfiles of UCSC's cytoband database and defines approxomite location of cytogenic bands as seen on Giemsa-stained chromosomes. 
 ## RepeatMasker
 ## Segmental Duplications
 ## dbSNP
