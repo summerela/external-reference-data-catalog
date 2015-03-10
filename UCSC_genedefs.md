@@ -19,5 +19,6 @@ CREATE TABLE uniprot_genes (
     proteinID  STRING           COMMENT 'UniProtKB ID',
     alignID    STRING           COMMENT 'Unique identifier for each (known gene, alignment position) pair'
     )
-COMMENT 'Protein coding genes based on proteins from UniProtKB and their corresponding mRNAs from GenBank downloaded from http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/knownGene.txt.gz'```
+COMMENT 'Protein coding genes based on proteins from UniProtKB and their corresponding mRNAs from GenBank downloaded from http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/knownGene.txt.gz'
+```
 						    
