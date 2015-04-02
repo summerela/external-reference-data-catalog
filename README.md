@@ -24,7 +24,6 @@ Uniprot annotations can be used for mapping variants to PFAM database.
 
 ##Functional annotation resources
 Functional annotation resources can be used to find overlap between a variant and a region in one of the following resources. <ul>
-<li>dbSNP: Locate single base nucleotide subsitutions and short deletion and insertion polymorphisms</li>
 <li>phastCons: Conserved Elements</li>
 <li>Transfac Matrix Database: Transcription factor binding sites</li>
 <li>Cytobands: Cytogenic band identification</li>
@@ -37,5 +36,14 @@ Functional annotation resources can be used to find overlap between a variant an
 <li>ENCODE: identify variants that disrupt promoter, enhancer, elongation and repressor regions</li>
 </ul>
 
-##Comparison resource
+##
+The following resources can be used to compare a variant with available resources based upon an exact match between chromosome, start and stop positions. 
+<ul>
+<li>Clinvar</li>
+<li>GO</li>
+<li>Admix</li>
+<li>dbSNP: Locate single base nucleotide subsitutions and short deletion and insertion polymorphisms</li>
+<li>SIFT</li>
+<li>PolyPhen2</li>
+<li>GERP+++</li>
 
