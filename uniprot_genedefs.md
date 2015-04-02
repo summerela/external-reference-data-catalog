@@ -3,7 +3,7 @@ The UniProt Knowledgebase (UniProtKB) provides the central database of protein s
 
 Match_On|Downloads|Sample_Query|Notes|
 |------------|---------|--------------|------------|-----|
-chrom<br>strand<br>txStart<br>txEnd<br>cdsStart<br>cdsEnd<br>exonCount<br>exonStarts<br>exonEnds|[hg19](http://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2014_04/knowledgebase/uniprot_sprot-only2014_04.tar.gz)<br>[Recent release]('ftp://http.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.dat.gz')|tbd|[Documentation](http://web.expasy.org/docs/userman.html) <br><br> Latest download links to most recent human reference build.|
+chrom<br>strand<br>txStart<br>txEnd<br>cdsStart<br>cdsEnd<br>exonCount<br>exonStarts<br>exonEnds|[hg19](http://ftp.uniprot.org/pub/databases/uniprot/previous_major_releases/release-2014_04/knowledgebase/uniprot_sprot-only2014_04.tar.gz)<br>[Recent release](http://http.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/taxonomic_divisions/uniprot_sprot_human.dat.gz)|tbd|[Documentation](http://web.expasy.org/docs/userman.html) <br><br> Latest download links to most recent human reference build.|
 
 ##Uniprot Database Schema
 ```Mysql
