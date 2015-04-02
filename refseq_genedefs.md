@@ -5,8 +5,7 @@ The Reference Sequence (RefSeq) collection provides a comprehensive, integrated,
 Match_On|Downloads|Sample_Query|Notes|
 |------------|---------|--------------|------------|-----|
 |chrom<br>strand<br>txStart<br>txEnd<br>cdsStart<br>cdsEnd<br>exonCount<br>exonStarts<br>exonEnds|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/refFlat.txt.gz)<br>[Recent release](http://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/refFlat.txt.gz)|tbd|[Chromosome mapping](http://ftp.ncbi.nlm.nih.gov/genomes/H_sapiens/ARCHIVE/ANNOTATION_RELEASE.105/Assembled_chromosomes/chr_accessions_GRCh37.p13)<br>The
-top_level.gff3 and chr_accessions files must be mapped to get complete
-positional information.|
+top_level.gff3 and chr_accessions files must be mapped to get complete positional information.|
 
 ##RefSeq Database Schema
 ```Mysql
