@@ -1,7 +1,11 @@
 ##UCSC Gene Definitions
-|Description|Format|Lookup|Match_Fields|GRCh37_download|latest_release|Notes|
+Protein coding genes based on proteins from UniProtKB and their corresponding mRNAs from GenBank
+
+|Match_On| Downloads|lSample_Query|Notes|
 |-----------|------|------|------------|---------|---------------|--------------|-----|
-|UCSC Gene Definitions|tsv|direct|chrom<br>strand<br>txStart<br>txEnd<br>cdsStart<br>cdsEnd<br>exonCount<br>exonStarts<br>exonEnds|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/knownGene.txt.gz)|[Recent release](http://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/knownGene.txt.gz)|<ul><li>Latest download links to most recent human reference</li><li>Select match field based on transcript, coding or exon</li></ul>|
+|chrom<br>strand<br>txStart<br>txEnd<br>cdsStart<br>cdsEnd<br>exonCount<br>exonStarts<br>exonEnds|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/knownGene.txt.gz)<br>[Recent release](http://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/knownGene.txt.gz)|[Documentation](http://genome.ucsc.edu/cgi-bin/hgTables)
+<br><br>Latest
+download links to most recent human reference. |
 
 ##UCSC Database Schema
 ```Mysql
