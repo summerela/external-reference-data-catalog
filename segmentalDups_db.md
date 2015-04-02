@@ -1,7 +1,7 @@
 ##Segmental Duplications
 |Description|Format|Lookup|Match_Fields|hg19_download|latest_release|Notes|
 |-----------|------|------|------------|---------|---------------|--------------|-----|
-|UCSC's segmental duplication databsae|tsv|direct|chrom<br>chromStart<br>chromEnd|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/genomicSuperDups.txt.gz)|[Recent release](ftp://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/genomicSuperDups.txt.gz)|<ul><li>Latest download links to most recent human reference</li></ul>|
+|UCSC's segmental duplication databsae|tsv|direct|chrom<br>chromStart<br>chromEnd|[hg19](http://hgdownload.cse.ucsc.edu/goldenPath/hg19/database/genomicSuperDups.txt.gz)|[Recent release](http://hgdownload.cse.ucsc.edu/goldenPath/currentGenomes/Homo_sapiens/database/genomicSuperDups.txt.gz)|<ul><li>Latest download links to most recent human reference</li></ul>|
 
 ##dbSNP Database Schema
 ```Mysql
