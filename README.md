@@ -52,7 +52,7 @@ The following resources can be used to compare a variant with available resource
 <li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/polyphen.md", target="blank">PolyPhen2</a>: predict possible impact of an amino acid substitution on the structure and function of a human protein</li>
 <li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/repeatmasker.md", target="blank">RepeatMasker</a>: determine if variant falls in a region of low-complexity/highly repetetive region. </li>
 <li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/sift.md", target="blank">SIFT</a>: identify amino acid substitutions in protein-coding regions</li>
-<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/simplerepeat.md", target="blank">SimpleRepeat</a>: identify variants located in tandem repeat regions.<li>
+<li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/simplerepeat.md", target="blank">SimpleRepeat</a>: identify variants located in tandem repeat regions.</li>
 <li><a href="https://github.com/summerela/external-reference-data-catalog/blob/master/snp_array.md", target="blank">SNP array data</a>: determine which SNP's have observed variants on a particular platform.</li>
 </ul>
 
