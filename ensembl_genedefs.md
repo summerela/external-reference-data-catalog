@@ -1,7 +1,11 @@
 ##Ensembl Gene Definitions
-|Description|Format|Lookup|Match_Fields|GRCh37_download|latest_release|Notes|
-|-----------|------|------|------------|---------|---------------|--------------|-----|
-|Ensembl Gene Definitions|tsv|direct|seqname<br>start<br>end|[hg19](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/Homo_sapiens.GRCh37.74.gtf.gz)|[Recent release](http://ftp.ensembl.org/pub/current_gtf/homo_sapiens/Homo_sapiens.GRCh38.78.gtf.gz)|<ul><li>Latest download links to most recent human reference</li><li>We might want to break up the "attribute" field into separate columns</li></ul>|
+All annotated protein coding genes in the ensembl human gene set. 
+
+Match_On|Downloads|Sample_Query|Notes|
+|------------|---------|--------------|------------|-----|
+|seqname<br>start<br>end|[hg19](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/Homo_sapiens.GRCh37.74.gtf.gz)<br>[Recent release](http://ftp.ensembl.org/pub/current_gtf/homo_sapiens/Homo_sapiens.GRCh38.78.gtf.gz)|tbd|[Documentation](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/README)
+<br>Latest
+download links to most recent human reference.|
 
 ##Ensembl Database Schema
 ```Mysql
