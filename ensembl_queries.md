@@ -20,7 +20,7 @@ Update or remove the following variables, as needed:
 ```
 
 This query is equivalent to:
-
+```sql
     SELECT vcf.sample_id as vcf_sample_id, vcf.chromosome as vcf_chrom, vcf.position as vcf_pos,vcf.ref as vcf_ref, vcf.alt as vcf_alt, vcf.id as vcf_rsID, ens.start as ensembl_start, ens.stop as ensembl_end, ens.feature, ens.gene_name as ensembl_gene_name, ens.gene_id as ensembl_geneid, ens.gene_biotype as ensembl_gene_biotype, ens.transcript_name as ensembl_tx_name,ens.transcript_id as ensembl_trans_id, ens.exon_id as ensembl_exonid, ens.strand as ensembl_strand
     FROM p7_ptb.illumina_variant as vcf
     JOIN
@@ -29,7 +29,7 @@ This query is equivalent to:
     WHERE vcf.filter = "PASS"
     AND vcf.qual > 100
     AND vcf.position BETWEEN ens.start AND ens.stop 
-
+    ```
 ###Find specific genes in the ensembl gene subset created above
 
 Update or remove the following variables, as needed:  
