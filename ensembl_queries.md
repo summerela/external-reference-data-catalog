@@ -29,7 +29,8 @@ This query is equivalent to:
     WHERE vcf.filter = "PASS"
     AND vcf.qual > 100
     AND vcf.position BETWEEN ens.start AND ens.stop 
-    ```
+```
+
 ###Find specific genes in the ensembl gene subset created above
 
 Update or remove the following variables, as needed:  
