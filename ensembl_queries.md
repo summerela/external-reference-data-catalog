@@ -1,24 +1,23 @@
-Sample queries for ensembl gene annotations
-===========================================
+##Sample queries for ensembl gene annotations
 
-Find all variants in ensembl gene regions
------------------------------------------
+###Find all variants in ensembl gene regions
 
 The following query can be used to determine what gene regions a variant
 lies in and to create a subset for downstream annotation for finding
 amino acid changes.
 
 Update or remove the following variables, as needed:  
-- vcf.filter: filter out variants that did not pass filtering by the
-variant caller  
+- vcf.filter: filter out variants that did not pass filtering by the variant caller  
 - vcf.qual: filter out variants below a certain quality score
 
+```sql
     SELECT vcf.sample_id as vcf_sample_id, vcf.chromosome as vcf_chrom, vcf.position as vcf_pos,vcf.ref as vcf_ref, vcf.alt as vcf_alt, vcf.id as vcf_rsID, ens.start as ensembl_start, ens.stop as ensembl_end, ens.feature, ens.gene_name as ensembl_gene_name, ens.gene_id as ensembl_geneid, ens.gene_biotype as ensembl_gene_biotype, ens.transcript_name as ensembl_tx_name,ens.transcript_id as ensembl_trans_id, ens.exon_id as ensembl_exonid, ens.strand as ensembl_strand
     FROM p7_ptb.illumina_variant as vcf, public_hg19.ensembl_genes as ens  
     WHERE vcf.filter = "PASS" 
     WHERE vcf.qual > 100
     AND vcf.chromosome = ens.chromosome  
     AND vcf.position BETWEEN ens.start AND ens.stop  
+```
 
 This query is equivalent to:
 
@@ -31,16 +30,14 @@ This query is equivalent to:
     AND vcf.qual > 100
     AND vcf.position BETWEEN ens.start AND ens.stop 
 
-Find specific genes in the ensembl gene subset created above
-------------------------------------------------------------
+###Find specific genes in the ensembl gene subset created above
 
 Update or remove the following variables, as needed:  
-- vcf.filter: filter out variants that did not pass filtering by the
-variant caller  
+- vcf.filter: filter out variants that did not pass filtering by the variant caller  
 - vcf.qual: filter out variants below a certain quality score  
-- ens.gene\_name: enter each gene of interest as a list, with each gene
-in quotes, comma-separated
+- ens.gene\_name: enter each gene of interest as a list, with each gene in quotes, comma-separated
 
+```sql
     SELECT vcf.sample_id as vcf_sample_id, vcf.chromosome as vcf_chrom, vcf.position as vcf_pos,vcf.ref as vcf_ref, vcf.alt as vcf_alt, vcf.id as vcf_rsID, ens.start as ensembl_start, ens.stop as ensembl_end, ens.feature, ens.gene_name as ensembl_gene_name, ens.gene_id as ensembl_geneid, ens.gene_biotype as ensembl_gene_biotype, ens.transcript_name as ensembl_tx_name,ens.transcript_id as ensembl_trans_id, ens.exon_id as ensembl_exonid, ens.strand as ensembl_strand
     FROM p7_ptb.illumina_variant as vcf, public_hg19.ensembl_genes as ens  
     WHERE vcf.filter = "PASS"  
@@ -48,16 +45,16 @@ in quotes, comma-separated
     AND vcf.chromosome = ens.chromosome  
     AND vcf.position BETWEEN ens.start AND ens.stop 
     AND ens.gene_name IN ("RMRPP1","PPIAP13","NDST2","RP11-574K11.8","RPL39P25")
+```
 
-Find a specific gene in the ensebml gene subset
------------------------------------------------
+###Find a specific gene in the ensebml gene subset
 
 Update or remove the following variables, as needed:  
-- vcf.filter: filter out variants that did not pass filtering by the
-variant caller  
+- vcf.filter: filter out variants that did not pass filtering by the variant caller  
 - vcf.qual: filter out variants below a certain quality score  
 - ens.gene\_name: enter a gene of interest in quotes
 
+```sql
     SELECT vcf.sample_id as vcf_sample_id, vcf.chromosome as vcf_chrom, vcf.position as vcf_pos,vcf.ref as vcf_ref, vcf.alt as vcf_alt, vcf.id as vcf_rsID, ens.start as ensembl_start, ens.stop as ensembl_end, ens.feature, ens.gene_name as ensembl_gene_name, ens.gene_id as ensembl_geneid, ens.gene_biotype as ensembl_gene_biotype, ens.transcript_name as ensembl_tx_name,ens.transcript_id as ensembl_trans_id, ens.exon_id as ensembl_exonid, ens.strand as ensembl_strand
     FROM p7_ptb.illumina_variant as vcf, public_hg19.ensembl_genes as ens  
     WHERE vcf.filter = "PASS"  
@@ -65,3 +62,4 @@ variant caller
     AND vcf.chromosome = ens.chromosome  
     AND vcf.position BETWEEN ens.start AND ens.stop 
     AND ens.gene_name IN ("RMRPP1")
+```
