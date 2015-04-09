@@ -1,7 +1,7 @@
-Sample queries for ensembl gene annotations
+#Sample queries for ensembl gene annotations
 ===========================================
 
-Find all variants in ensembl gene regions
+##Find all variants in ensembl gene regions
 -----------------------------------------
 
 The following query can be used to determine what gene regions a variant
@@ -31,7 +31,7 @@ This query is equivalent to:
     AND vcf.qual > 100
     AND vcf.position BETWEEN ens.start AND ens.stop 
 
-Find specific genes in the ensembl gene subset created above
+##Find specific genes in the ensembl gene subset created above
 ------------------------------------------------------------
 
 Update or remove the following variables, as needed:  
@@ -49,7 +49,7 @@ in quotes, comma-separated
     AND vcf.position BETWEEN ens.start AND ens.stop 
     AND ens.gene_name IN ("RMRPP1","PPIAP13","NDST2","RP11-574K11.8","RPL39P25")
 
-Find a specific gene in the ensebml gene subset
+##Find a specific gene in the ensebml gene subset
 -----------------------------------------------
 
 Update or remove the following variables, as needed:  
