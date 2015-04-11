@@ -3,7 +3,7 @@ All annotated protein coding genes in the ensembl human gene set.
 
 |Downloads|Sample_Query|Notes|
 |---------|--------------|------------|-----|
-|[hg19](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/Homo_sapiens.GRCh37.74.gtf.gz)<br>[Recent release](http://ftp.ensembl.org/pub/current_gtf/homo_sapiens/Homo_sapiens.GRCh38.78.gtf.gz)|[Sample Queries](https://github.com/summerela/external-reference-data-catalog/blob/master/ensembl_queries.md)|[Documentation](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/README)<br>Latest download links to most recent human reference build.|
+|[hg19](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/Homo_sapiens.GRCh37.74.gtf.gz)<br>[Recent release](http://ftp.ensembl.org/pub/current_gtf/homo_sapiens/Homo_sapiens.GRCh38.78.gtf.gz)|[Sample Illumina  Queries](https://github.com/summerela/external-reference-data-catalog/blob/master/ensembl_queries_illumina) <br> [Sample CGI Queries](https://github.com/summerela/external-reference-data-catalog/blob/master/ensembl_queries_cgi)|[Documentation](http://ftp.ensembl.org/pub/release-74/gtf/homo_sapiens/README)<br>Latest download links to most recent human reference build.|
 
 ##Ensembl Database Schema
 ```Mysql
